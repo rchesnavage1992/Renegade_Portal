@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #E1F3F6;
+}
+
+.logo-image{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+nav{
+  width: 100%;
+  height: auto;
+  background-color: #06294B;
+  overflow: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 0 0 150px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #06294B;
+}
+
+li {
+  float: left;
+  font-size: 24px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
